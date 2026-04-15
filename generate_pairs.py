@@ -50,9 +50,9 @@ for item in dataset:
             if is_good_prose(chunk):
                 passages.append(chunk)
                 break
-    if len(passages) >= 50:
+    if len(passages) >= 1500:
         break
-    if checked > 500:  # safety limit
+    if checked > 5000:  # safety limit
         break
 
 print(f"Checked {checked} books, extracted {len(passages)} clean passages")
