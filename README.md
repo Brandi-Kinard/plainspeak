@@ -6,6 +6,8 @@
 
 ### *I taught a tiny AI to speak human.*
 
+![PlainSpeak Demo](plainspeak-demo.gif)
+
 Give it Shakespeare. Give it a legal contract. Give it anything written to impress instead of communicate.  
 It gives you back what it actually means.
 
