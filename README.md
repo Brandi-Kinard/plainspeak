@@ -73,20 +73,25 @@ PlainSpeak: "When people try to make money for themselves, they often end up
 
 ---
 
-## Run it in 60 seconds
+## Run it locally
 
+**Option 1 — Live demo (no setup)**
+Try it instantly at [huggingface.co/spaces/Brandi-Kinard/plainspeak](https://huggingface.co/spaces/Brandi-Kinard/plainspeak) ← *(link coming soon)*
+
+**Option 2 — Local web app**
 ```bash
-pip install mlx-lm
+git clone https://github.com/Brandi-Kinard/plainspeak
+cd plainspeak
+python3 -m venv venv && source venv/bin/activate
+pip install mlx-lm streamlit
+streamlit run app.py
 ```
 
+**Option 3 — CLI**
 ```bash
-mlx_lm.generate \
-  --model Brandi-Kinard/plainspeak-smollm2-1.7b \
-  --prompt "### Original:
-YOUR TEXT HERE
-
-### Plain English:" \
-  --max-tokens 200
+python translate.py "Your dense text here"
+# or pipe it
+echo "Your text" | python translate.py
 ```
 
 That's it. The model downloads once (~3.4GB), then runs entirely on your machine. No API key. No account. No data leaves your device.
