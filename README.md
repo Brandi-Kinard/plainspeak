@@ -13,6 +13,7 @@ It gives you back what it actually means.
 
 <br />
 
+[![Live Demo](https://img.shields.io/badge/🤗%20Live%20Demo-Try%20it%20now-green)](https://huggingface.co/spaces/Brandi-Kinard/plainspeak)
 [![Model on HuggingFace](https://img.shields.io/badge/🤗%20Model-Brandi--Kinard%2Fplainspeak--smollm2--1.7b-yellow)](https://huggingface.co/Brandi-Kinard/plainspeak-smollm2-1.7b)
 [![Built with MLX](https://img.shields.io/badge/Built%20with-MLX-black)](https://github.com/ml-explore/mlx)
 [![Runs locally](https://img.shields.io/badge/Runs-100%25%20Local-green)](https://github.com/Brandi-Kinard/plainspeak)
@@ -76,7 +77,7 @@ PlainSpeak: "When people try to make money for themselves, they often end up
 ## Run it locally
 
 **Option 1 — Live demo (no setup)**
-Try it instantly at [huggingface.co/spaces/Brandi-Kinard/plainspeak](https://huggingface.co/spaces/Brandi-Kinard/plainspeak) ← *(link coming soon)*
+Try it instantly: [huggingface.co/spaces/Brandi-Kinard/plainspeak](https://huggingface.co/spaces/Brandi-Kinard/plainspeak)
 
 **Option 2 — Local web app**
 ```bash
