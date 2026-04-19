@@ -182,16 +182,9 @@ No magic. Just a clean pipeline anyone can reproduce.
 
 ## Part of a larger build
 
-This is Sprint 1 of a series of focused, locally-run AI models built to prove that small, precise models can outperform giant cloud models at specific tasks — built on a laptop, with no external funding.
+PlainSpeak is the first in a series of focused, locally-run AI models — each proving that small, precise models can outperform giant cloud models at specific tasks, built on a laptop with no external funding.
 
-| Sprint | Model | Status |
-|---|---|---|
-| 1 | **PlainSpeak** — Dense-to-plain-English translator | ✅ Shipped |
-| 2 | **CivicDigest** — Local government meeting summarizer | 🔨 Next |
-| 3 | **SafeCheck** — Food + drug safety checker | ⏳ Upcoming |
-| 4 | **CarDiag** — OBD-II car diagnosis advisor | ⏳ Upcoming |
-
-Follow the build: [linkedin.com/in/brandi-kinard](https://www.linkedin.com/in/brandi-kinard/)
+More coming. Follow the build: [linkedin.com/in/brandi-kinard](https://www.linkedin.com/in/brandi-kinard/)
 
 ---
 
@@ -244,6 +237,6 @@ Previously: Meta Reality Labs · Microsoft 365 Copilot · LinkedIn · Atlassian
 
 <br />
 
-*"Own the brain. Stop renting intelligence from giants."*
+*"Built on a laptop. No permission required."*
 
 </div>
