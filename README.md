@@ -109,6 +109,31 @@ That's it. The model downloads once (~3.4GB), then runs entirely on your machine
 
 ---
 
+## Chrome Extension (v2)
+
+PlainSpeak is also available as a Chrome extension. Select any text 
+on any webpage, right-click, and get a plain English translation inline.
+
+**Requirements:** Apple Silicon Mac (M1/M2/M3)
+
+**Setup:**
+1. Clone this repo and follow the local setup above to download model weights
+2. Start the local inference server:
+```bash
+   cd ~/sovereign-geek/plainspeak
+   source venv/bin/activate
+   mlx_lm.server --model /path/to/plainspeak-model --port 8080
+```
+3. Load the extension in Chrome:
+   - Go to `chrome://extensions`
+   - Toggle **Developer mode** ON
+   - Click **Load unpacked** → select the `plainspeak-extension/` folder
+4. Select any text on any webpage → right-click → **"PlainSpeak: Make this readable"**
+
+The extension uses your locally-running model. No data leaves your machine.
+
+---
+
 ## Use it in Python
 
 ```python
@@ -186,7 +211,6 @@ No magic. Just a clean pipeline anyone can reproduce.
 - ❌ Struggles with very short fragments (trained on 200-word chunks)
 - ❌ Occasional factual errors on numerical content (dates, quantities)
 - ❌ Not optimized for highly technical scientific notation
-- ❌ No real-time API endpoint yet
 
 ---
 
