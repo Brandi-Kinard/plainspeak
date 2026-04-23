@@ -6,7 +6,16 @@
 
 ### *I taught a tiny AI to speak human.*
 
+## Watch it in action
+
+**v1 — The model**
+*(click to watch)*
+
 [![PlainSpeak v1](assets/plainspeak-v1-demo.gif)](https://youtube.com/shorts/DcEe-xiN_Ok)
+
+**v2 — Chrome Extension**
+*(click to watch)*
+
 [![PlainSpeak v2 — Chrome Extension](assets/plainspeak-v2-demo.gif)](https://youtu.be/40aB4KjOkE0)
 
 Give it Shakespeare. Give it a legal contract. Give it anything written to impress instead of communicate.  
